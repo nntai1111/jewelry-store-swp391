@@ -1,0 +1,35 @@
+.title_orchid {
+    color: #5a2ef8; /* Màu tím hoa văn */
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  img {
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #5a2ef8; /* Màu tím hoa văn */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 20px auto;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #C58FD0; /* Màu tím hoa văn đậm hơn khi hover */
+  }

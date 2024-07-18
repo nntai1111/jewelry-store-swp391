@@ -1,0 +1,250 @@
+.card {
+
+<<<<<<< HEAD
+  position: relative;
+  width: 9.6em;
+  height: 13.5em;
+  box-shadow:1px 1px 1px 2px rgba(0, 0, 0, 0.164);
+  cursor: pointer;
+  transition: all 80ms;
+  background: #fff;
+  padding: 0.5em;
+  padding-bottom: 2.5em;
+  border-radius: 15px;
+
+  margin-bottom: 10px;
+
+
+/* margin-bottom: 10px; */
+
+
+.card::after {
+  content: "Add to Cart";
+  padding-top: 0.75em;
+  padding-left: 1.25em;
+  position: absolute;
+  left: 0;
+  bottom: -60px;
+  background: #00AC7C;
+  color: #fff;
+  height: 3em;
+  width: 100%;
+  transition: all 80ms;
+  font-weight: 600;
+  text-transform: uppercase;
+  opacity: 0;
+  object-fit: cover;
+  border-radius: 0px 0px 15px 15px;
+}
+
+
+.card .title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  position: absolute;
+  left: 0.625em;
+  bottom: 1.875em;
+  font-weight: 400;
+  color: #000;
+}
+
+.card .price {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 0.9em;
+  position: absolute;
+  left: 0.625em;
+  bottom: 0.625em;
+  color: #000;
+}
+
+.card:hover::after {
+  bottom: 0;
+  opacity: 1;
+}
+
+.card:active {
+  transform: scale(0.98);
+}
+
+.card:active::after {
+  content: "Added !";
+  height: 3.125em;
+}
+
+.text {
+  max-width: 55px;
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000000b3;
+  transition: opacity 1ms;
+  visibility: hidden;
+  opacity: 0;
+  overflow-y: scroll;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup {
+  margin: 70px auto;
+  padding: 5px;
+  background: #fff;
+  border-radius: 5px;
+  width: 53%;
+  position: relative;
+  transition: all 1s ease-in-out;
+  overflow: scroll;
+}
+.popup img{ width: 100%;}
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  transition: all 100ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+=======
+    position: relative;
+    width: 9.6em;
+    height: 13.5em;
+    box-shadow:1px 1px 1px 2px rgba(0, 0, 0, 0.164);
+    cursor: pointer;
+    transition: all 80ms;
+    background: #fff;
+    padding: 0.5em;
+    padding-bottom: 2.5em;
+    border-radius: 15px;
+
+    margin-bottom: 10px;
+
+  
+  /* margin-bottom: 10px; */
+  
+
+  .card::after {
+    content: "Add to Cart";
+    padding-top: 0.75em;
+    padding-left: 1.25em;
+    position: absolute;
+    left: 0;
+    bottom: -60px;
+    background: #00AC7C;
+    color: #fff;
+    height: 3em;
+    width: 100%;
+    transition: all 80ms;
+    font-weight: 600;
+    text-transform: uppercase;
+    opacity: 0;
+    object-fit: cover;
+    border-radius: 0px 0px 15px 15px;
+  }
+>>>>>>> FE_Giang
+  
+ 
+<<<<<<< HEAD
+}
+=======
+  .card .title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    position: absolute;
+    left: 0.625em;
+    bottom: 1.875em;
+    font-weight: 400;
+    color: #000;
+  }
+  
+  .card .price {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 0.9em;
+    position: absolute;
+    left: 0.625em;
+    bottom: 0.625em;
+    color: #000;
+  }
+  
+  .card:hover::after {
+    bottom: 0;
+    opacity: 1;
+  }
+  
+  .card:active {
+    transform: scale(0.98);
+  }
+  
+  .card:active::after {
+    content: "Added !";
+    height: 3.125em;
+  }
+  
+  .text {
+    max-width: 55px;
+  }
+
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000b3;
+    transition: opacity 1ms;
+    visibility: hidden;
+    opacity: 0;
+    overflow-y: scroll;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  .popup {
+    margin: 70px auto;
+    padding: 5px;
+    background: #fff;
+    border-radius: 5px;
+    width: 53%;
+    position: relative;
+    transition: all 1s ease-in-out;
+    overflow: scroll;
+  }
+  .popup img{ width: 100%;}
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    transition: all 100ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    
+  }
+  .popup .close:hover {color: #06D85F;}
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+   
+  }
+>>>>>>> FE_Giang
+}

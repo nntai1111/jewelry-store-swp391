@@ -1,0 +1,51 @@
+.dropdown {
+  width: 90%; /* w-[90%] */
+  margin-left: 10px; /* ml-[10px] */
+  border-radius: 1rem; /* rounded-2xl */
+  font-weight: 100; /* font-thin */
+  font-family: 'serif'; /* font-serif */
+  font-style: italic; /* italic */
+  gap: 0.75rem; /* gap-3 */
+  align-items: center; /* items-center */
+  color: white; /* text-white */
+  font-size: 14px; /* text-[14px] */
+  background-color: #90A0F4;
+}
+
+.silderleft {
+}
+
+a {
+  padding-top: 1rem; /* py-4 */
+  padding-bottom: 1rem; /* py-4 */
+  padding-left: 25px; /* px-[25px] */
+  padding-right: 25px; /* px-[25px] */
+  font-weight: 300; /* font-[300] */
+  font-family: 'sans-serif'; /* font-sans */
+  font-style: italic; /* italic */
+  display: flex; /* flex */
+  gap: 0.75rem; /* gap-3 */
+  align-items: center; /* items-center */
+  color: white; /* text-white */
+  font-size: 14px; /* text-[14px] */
+}
+
+.silderleft a:hover {
+}
+
+.silderleft a.active {
+  padding-top: 1rem; /* py-4 */
+  padding-bottom: 1rem; /* py-4 */
+  width: 90%; /* w-[90%] */
+  margin-left: 10px; /* ml-[10px] */
+  border-radius: 1rem; /* rounded-2xl */
+  font-weight: 100; /* font-thin */
+  font-family: 'serif'; /* font-serif */
+  font-style: italic; /* italic */
+  display: flex; /* flex */
+  gap: 0.75rem; /* gap-3 */
+  align-items: center; /* items-center */
+  color: white; /* text-white */
+  font-size: 14px; /* text-[14px] */
+  background-color: #001167; /* bg-[#90A0F4] */
+}
